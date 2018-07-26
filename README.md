@@ -4,7 +4,7 @@ Documentation for grafana &amp; prometheus
 Grafana supports querying Prometheus. The Grafana data source for Prometheus is included since Grafana 2.5.0 (2015-10-28).
 The following shows an example Grafana dashboard which queries Prometheus for data:
 
-Grafana screenshot
+![alt text](https://prometheus.io/assets/grafana_prometheus-cbb943f0bb3.png)
 
 # Using
 
@@ -24,7 +24,7 @@ To create a Prometheus data source:
    
 The following shows an example data source configuration:
 
-Data source configuration
+![alt text](https://prometheus.io/assets/grafana_configuring_datasource-cb0e78b7cfa.png)
 
 # Creating a Prometheus graph
 
@@ -36,7 +36,9 @@ Follow the standard way of adding a new Grafana graph. Then:
    4. To format the legend names of time series, use the "Legend format" input. For example, to show only the method and status labels of a returned query result, separated by a dash, you could use the legend format string {{method}} - {{status}}.
    5. Tune other graph settings until you have a working graph.
 
-The following shows an example Prometheus graph configuration: Prometheus graph creation
+The following shows an example Prometheus graph configuration: 
+
+![alt text](https://prometheus.io/assets/grafana_qps_graph-cb702994700.png)
 
 # Importing pre-built dashboards from Grafana.com
 
